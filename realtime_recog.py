@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 ##################################################
 width = 640
 height = 480
-threshold = 0.90
+threshold = 0.75
 ##################################################
 
 def preProcessing(img):
